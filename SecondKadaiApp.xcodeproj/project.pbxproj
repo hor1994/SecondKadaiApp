@@ -13,6 +13,7 @@
 		42EB5508272161F700B04457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EB5506272161F700B04457 /* Main.storyboard */; };
 		42EB550A272161F800B04457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42EB5509272161F800B04457 /* Assets.xcassets */; };
 		42EB550D272161F800B04457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42EB550B272161F800B04457 /* LaunchScreen.storyboard */; };
+		42EB5515272164E500B04457 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB5514272164E500B04457 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		42EB5509272161F800B04457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42EB550C272161F800B04457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42EB550E272161F800B04457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42EB5514272164E500B04457 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				42EB5500272161F700B04457 /* AppDelegate.swift */,
 				42EB5502272161F700B04457 /* SceneDelegate.swift */,
 				42EB5504272161F700B04457 /* ViewController.swift */,
+				42EB5514272164E500B04457 /* ResultViewController.swift */,
 				42EB5506272161F700B04457 /* Main.storyboard */,
 				42EB5509272161F800B04457 /* Assets.xcassets */,
 				42EB550B272161F800B04457 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				42EB5505272161F700B04457 /* ViewController.swift in Sources */,
 				42EB5501272161F700B04457 /* AppDelegate.swift in Sources */,
 				42EB5503272161F700B04457 /* SceneDelegate.swift in Sources */,
+				42EB5515272164E500B04457 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MG43AH2X7B;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MG43AH2X7B;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
